@@ -1,5 +1,5 @@
 {
-    "name": "drupal/console-extend-plugin",
+    "name": "ecedi/console-extend-plugin",
     "description": "Drupal Console Extend Plugin",
     "license": "GPL-2.0+",
     "authors": [
