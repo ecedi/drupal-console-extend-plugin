@@ -44,6 +44,22 @@ class Extender implements PluginInterface, EventSubscriberInterface
       $composer->getInstallationManager()->addInstaller($installer);
 
     }
+    
+    /**
+     * {@inheritdoc}
+     */
+    public function deactivate(Composer $composer, IOInterface $io)
+    {
+        // Nothing to deactivate.
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function uninstall(Composer $composer, IOInterface $io)
+    {
+        // Nothing to uninstall.
+    }
 
     /**
      * Returns an array of event names this subscriber wants to listen to.
